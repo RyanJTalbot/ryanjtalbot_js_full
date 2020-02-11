@@ -19,7 +19,7 @@ function activateGallery() {
       let galleryInfo = document.querySelector("#gallery-info");
       let title = galleryInfo.querySelector(".title");
       let description = galleryInfo.querySelector(".description");
-      
+
       title.innerHTML = thumbnail.dataset.title;
       description.innerHTML = thumbnail.dataset.description;
     });
